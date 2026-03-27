@@ -1,10 +1,5 @@
-num = int(input('Digite um valor: '))
-fatorial = 1
-
-contador = num
-
-while contador > 0:
-    fatorial *= contador
-    contador -= 1
-
-print(f'Fatorial de {num} é {fatorial}')
+#prog que calcula o fatorial de qualquer numero inteiro.
+from math import factorial
+n = int(input('Digite um valor: '))
+f = factorial(n)
+print(f'O fatorial de {n} é {f}.')
